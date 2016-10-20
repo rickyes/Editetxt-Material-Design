@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">test</string>
+    <string name="nonetwork">无网络连接</string>
+    <string name="wifi">正在使用WIFI网络</string>
+    <string name="mobile">正在使用蜂窝网络</string>
+    <string name="logining">登录中...</string>
 </resources>

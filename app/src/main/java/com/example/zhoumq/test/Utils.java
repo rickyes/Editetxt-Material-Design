@@ -18,7 +18,14 @@ public class Utils {
     }
 
     public static void showSnackbar(View v, String snackbarStr){
-        Snackbar.make(v,snackbarStr,Snackbar.LENGTH_LONG).show();
+        final Snackbar mSnackbar = Snackbar.make(v,snackbarStr,Snackbar.LENGTH_LONG);
+                mSnackbar.setAction("删除", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mSnackbar.dismiss();
+                    }
+                })
+                .show();
     }
 
     public enum NETWORK_TYPE{

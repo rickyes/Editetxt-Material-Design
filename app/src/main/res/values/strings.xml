@@ -4,4 +4,5 @@
     <string name="wifi">正在使用WIFI网络</string>
     <string name="mobile">正在使用蜂窝网络</string>
     <string name="logining">登录中...</string>
+    <string name="delete">删除</string>
 </resources>
